@@ -10,11 +10,18 @@ package elimc;
  * @author T-102
  */
 public class Imc {
-Usuario user; 
-
+private Usuario User; 
 String  calcular(){
     
     
     return "Estas flaco"; 
 }
+
+    public Usuario getUser() {
+        return User;
+    }
+
+    public void setUser(Usuario User) {
+        this.User = User;
+    }
 }
