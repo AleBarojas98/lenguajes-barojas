@@ -1,0 +1,34 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Patos;
+
+/**
+ *
+ * @author T-102
+ */
+public class AplicacionPatos {
+    
+    public static void main(String[] args) {
+        PatoCanadiense pc1=new PatoCanadiense(); 
+        PatoCanadiense pc2=new PatoCanadiense(); 
+        System.out.println(PatoCanadiense.color);
+        pc1.comer();
+        pc2.comer(); 
+        
+        PatoEuropeo pe1=new PatoEuropeo(); 
+        PatoEuropeo pe2=new PatoEuropeo(); 
+        System.out.println(PatoEuropeo.color);
+        pe1.comer(); 
+        pe2.comer();
+        
+        PatoMexicano pm1=new PatoMexicano(); 
+        PatoMexicano pm2=new PatoMexicano(); 
+        System.out.println(PatoMexicano.color);
+        pm1.comer(); 
+        pm2.comer();
+        
+    }
+}
